@@ -377,6 +377,12 @@ p {
 	font-weight: 500;
 	margin-top: 10px;
 }
+#experience .experience-info h3 {
+	font-size: 2rem;
+	font-weight: 500;
+	margin-top: 10px;
+	opacity: 0.6;
+}
 #experience .experience-info p {
 	color: white;
 }
