@@ -325,12 +325,6 @@ p {
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
-#awards .awards-item h3 {
-	font-size: 1rem;
-	color: white;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-}
 #awards .awards-item p {
 	color: white;
 	text-align: left;
@@ -743,6 +737,13 @@ p {
 	}
 	/* End Hero */
 
+	/* awards Section */
+	#awards .awards-bottom .awards-item {
+		flex-basis: 45%;
+		margin: 2.5%;
+	}
+	/* End awards Section */
+
 	/* skills Section */
 	#skills .skills-bottom .skills-item {
 		flex-basis: 45%;
@@ -880,6 +881,11 @@ p {
 		display: none;
 	}
 	/* End header */
+
+	#awards .awards-bottom .awards-item {
+		flex-basis: 22%;
+		margin: 1.5%;
+	}
 
 	#skills .skills-bottom .skills-item {
 		flex-basis: 22%;
