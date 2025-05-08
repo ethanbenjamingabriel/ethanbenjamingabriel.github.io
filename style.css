@@ -333,68 +333,87 @@ p {
 
 /* skills Section */
 #skills .skills {
-	flex-direction: column;
-	text-align: center;
-	max-width: 1500px;
-	margin: 0 auto;
-	padding: 10px 0;
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 10px 0;
 }
 #skills .skills-top {
-	max-width: 500px;
-	margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto;
 }
 #skills .skills-bottom {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	margin-top: 50px;
-}
-#skills .skills-item {
-	flex-basis: 80%;
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-	flex-direction: column;
-	padding: 30px;
-	border-radius: 10px;
-	background-image: url(./img/img-1.png);
-	background-size: cover;
-	margin: 10px 5%;
-	position: relative;
-	z-index: 1;
-	overflow: hidden;
-}
-#skills .skills-item::after {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: 0.9;
-	z-index: -1;
-}
-#skills .skills-bottom .icon {
-	height: 80px;
-	width: 80px;
-	margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 2.5rem;
 }
 
-#skills .skills-header h1 {
-	margin-bottom: 50px;
+/* Each category is a row */
+.skills-category {
+    margin-bottom: 2.5rem;
 }
 
-#skills .skills-item h2 {
-	font-size: 2rem;
-	color: white;
-	margin-bottom: 10px;
-	text-transform: uppercase;
+.skills-subheader {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 1rem;
 }
-#skills .skills-item p {
-	color: white;
-	text-align: left;
+
+.skills-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: flex-start;
+}
+
+.skills-item {
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 140px;
+    text-align: center;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.08);
+    transition: background 0.2s;
+}
+
+.skills-item .icon img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 0.5rem;
+}
+
+.skills-item h3 {
+    color: #fff;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+/* Responsive: Stack items on small screens */
+@media (max-width: 700px) {
+    .skills-items {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .skills-item {
+        min-width: unset;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .skills-subheader {
+        text-align: left;
+        padding-left: 0.5rem;
+    }
 }
 /* End skills Section */
 
