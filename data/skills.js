@@ -8,7 +8,7 @@ const skills = {
     "Go (Golang)",
     "Kotlin",
     "MATLAB",
-    "mySQL"
+    "MySQL"
   ],
   "Frameworks & Libraries": [
     "React",
