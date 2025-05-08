@@ -41,7 +41,7 @@ const experiences = [
       'Received "Outstanding" - Highest Level on Co-op Evaluation',
       "Designed automated UI tests in Cypress for company's website",
       "Created front-end unit tests in Jest & back-end unit tests in Golang",
-     "Designed algorithms in Golang to improve text capitalization for all descriptions on website and mobile app",
+      "Designed algorithms in Golang to improve text capitalization for all descriptions on website and mobile app",
       "Led sprints and sprint planning for the engineering team",
       "Assisted all engineers and developers with manual website and mobile app testing"
     ],
@@ -53,7 +53,7 @@ const experiences = [
     type: "Seasonal • May 2023 - Present",
     description: [
       "Organizing the peer mentorship program for the Department of Electrical and Computer Engineering at the University of Waterloo",
-      "Organizing resume critique and interview preparation sessions for students across department",
+      "Organizing Resume Critique and Interview Preparation sessions for students across department",
       "Pairing upper year ECE students with first year ECE students for academic tutoring, mentoring, and networking oppourtunities"
     ],
     img: "./img/ecesociety.png"
