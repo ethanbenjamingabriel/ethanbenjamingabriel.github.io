@@ -1,8 +1,19 @@
 const projects = [
   {
+    title: "TrackBite",
+    programs: "Android Studio, Firebase, CameraX, Google ML Kit, Room Database ",
+    languages: "Kotlin",
+    description: [
+      "Developing an Android app that allows users to capture images of nutrition labels using their phone’s camera and extract key nutritional data (calories, sugar, fats, etc.) using Google ML Kit’s Text Recognition API",
+      "Implementing secure user authentication and personalized goal setting through Firebase, enabling users to track their daily nutritional intake and compare it against custom health goals",
+      "Integrating Room Database for local data persistence and designing intuitive UI/UX with Jetpack Compose to ensure seamless logging and tracking of meals"
+    ],
+    img: "./img/img-1.png"
+  },
+  {
     title: "Hand Detection using openCV",
-    programs: "Visual Studio Code, GitHub",
-    languages: "Python, openCV",
+    programs: "Visual Studio Code, openCV",
+    languages: "Python",
     description: [
       "Finger Counting in Real-Time Video in Python with OpenCV and MediaPipe",
       "Detects number of fingers raised in real-time"
@@ -11,32 +22,12 @@ const projects = [
   },
   {
     title: "File Directory Visualizer",
-    programs: "Visual Studio Code, GitHub",
+    programs: "Visual Studio Code",
     languages: "C++",
     description: [
       "File Directory visualization displayed through the command line",
       "Handles inserting and deleting new nodes, and displays the tree in a visual format",
       "Used to help peers visualize binary trees for their academic courses"
-    ],
-    img: "./img/img-1.png"
-  },
-  {
-    title: "Handwritten Digit Detection",
-    programs: "Visual Studio Code, GitHub",
-    languages: "Python, MNIST Data Set",
-    description: [
-      "Designed a handwritten digit detector with Python using the MNIST digits dataset",
-      "Measured time metrics and presented data using python, Jupyter notebook, and JavaScript files"
-    ],
-    img: "./img/img-1.png"
-  },
-  {
-    title: "Multi-layer Perceptron",
-    programs: "Visual Studio Code, Jupyter Notebook, Conda, GitHub",
-    languages: "Python, JavaScript",
-    description: [
-      "Designed a multi-layer perceptron (MLP) model to classify the MNIST digits dataset",
-      "Measured time metrics and presented data using python, Jupyter notebook, and JavaScript files"
     ],
     img: "./img/img-1.png"
   },
